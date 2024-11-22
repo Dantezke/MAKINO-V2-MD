@@ -3,22 +3,22 @@ const fs = require("fs");
 //to enable function - true
 //to disable function - false
 //
-global.available = false;
+global.available = true;
 global.autoReadGc = false;
 global.autoReadAll = false;
-global.antitags = false;
+global.antitags = true;
 
 
 //auto functioner
 global.autoTyping = false;                //make true to enable auto typing
 global.autoRecord = true;                //make true to enable auto recording
-global.autoviewstatus = false;                 //make true to view statuses 
-global.anticall = false
+global.autoviewstatus = true;                 //make true to view statuses 
+global.anticall = true
 
 
 global.SESSION_ID = process.env.SESSION_ID || ""
-global.Owner = ["2349151864541"]; //like 2347080968564 
-global.OwnerName =  "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
+global.Owner = ["254115770750"]; //like 2347080968564 
+global.OwnerName =  "Tᴀɪʀᴀ Danny";
 global.BotName = "♱MAKINO-MD-V2♱♡⃤";
 global.packname = "♱MAKINO-MD-V2♱♡⃤";                             //Do not change.
 global.author = "TAIRA MAKINO";                               //Do not change.
@@ -27,7 +27,7 @@ global.SupportGroupLink = "https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce";
 global.SupportGroupLink = "https://chat.whatsapp.com/DOVRqF006VHHZhiSNwJRce"; //Do not change!
 global.menutype = "v3"
 
-global.prefa = ['','!','.',','] 
+global.prefa = ['π'] 
 
 //
 global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
